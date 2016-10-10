@@ -1,0 +1,66 @@
+body {
+  width: 20ch;
+  font-size: 2em;
+  font-family: courier;
+  color: white;
+}
+
+.ethernet {
+  background-color: rgb(149, 161, 186);
+}
+
+.ethernet:hover {
+  background-color: rgb(173, 133, 186);
+}
+
+.ethernet-dest {
+
+}
+
+.ethernet-dest:hover {
+  color: rgb(69, 53, 103);
+}
+
+.ethernet-src {
+
+}
+
+.ethernet-src:hover {
+  color: rgb(69, 53, 103);
+}
+
+.ip {
+  background-color: rgb(149, 161, 186);
+}
+
+.ip:hover {
+  background-color: rgb(173, 133, 186);
+}
+
+.ip-src:hover {
+  color: rgb(69, 53, 103);
+}
+
+.ip-dest:hover {
+  color: rgb(69, 53, 103);
+}
+
+.tcp {
+  background-color: rgb(149, 161, 186);
+}
+
+.tcp:hover {
+  background-color: rgb(173, 133, 186);
+}
+
+.port-src:hover {
+  color: rgb(69, 53, 103);
+}
+
+.port-dest:hover {
+  color: rgb(69, 53, 103);
+}
+
+.tcp-flags:hover {
+  color: rgb(69, 53, 103);
+}
