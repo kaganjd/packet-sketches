@@ -1,0 +1,100 @@
+.hex {
+  background-color: rgb(149, 161, 186);
+  color: white;
+  display: inline-block;
+  margin: 1em;
+  padding: .5em;
+  width: 86ch;
+}
+.hex > div {
+  display: inline;
+  font-size: 1.5em;
+  font-family: courier;  
+}
+.stack {
+  display: inline-block;
+}
+.stack > div {
+  background-color: rgb(149, 161, 186);
+  color: white;
+  display: block;
+  font-size: 1.5em;
+  font-family: courier;
+  margin: 1em;
+  padding: .5em;
+  width: 5em;
+}
+
+.ethernet:hover, .blue {
+  background-color: rgb(0, 133, 186);
+}
+.ip:hover, .teal {
+  background-color: rgb(0, 133, 166);
+}
+.tcp:hover {
+  background-color: rgb(0, 133, 146);
+}
+.http:hover {
+  background-color: rgb(0, 133, 126);
+}
+.html:hover {
+  background-color: rgb(0, 133, 106);
+}
+
+#ipVersion:hover,
+#ipLen:hover,
+#ipSrc:hover,
+#ipDest:hover,
+#tcpSrcport:hover,
+#tcpDstport:hover,
+#tcpSeq:hover,
+#tcpAck:hover,
+#tcpFlags:hover,
+#httpRequestVersion:hover,
+#httpResponseCode:hover,
+#httpResponsePhrase:hover,
+#httpServer:hover,
+#httpDate:hover,
+#httpContent_type:hover,
+#httpResponseLine:hover,
+#httpLast_modified:hover,
+#dataTextLines:hover {
+  color: rgb(69, 53, 103);
+}
+
+span.tooltips {
+  position: relative;
+  display: inline;
+}
+span.tooltips a {
+  position: absolute;
+  width: 120px;
+  color: #FFFFFF;
+  background: #000000;
+  height: 30px;
+  line-height: 34px;
+  text-align: center;
+  visibility: hidden;
+  border-radius: 7px;
+}
+span.tooltips a:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+span:hover.tooltips a {
+  visibility: visible;
+  font-size: .5em;
+  font-family: helvetica;
+  opacity: 0.8;
+  top: 30px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+}
